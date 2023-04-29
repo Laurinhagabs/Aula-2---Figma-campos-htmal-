@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+
+<body>
+    <h1>Tabela simples sem cabeçalho com duas linhas</h1>
+
+    <table border="1">
+        <tr>
+            <td>Linha 1</td>
+            <td>Linha 2</td>
+            <td>Linha 3</td> 
+            
+        </tr>
+
+        <tr>
+            <td>Linha 1</td>
+            <td>Linha 2</td>
+            <td>Linha 3</td> 
+            
+        </tr>
+
+    </table>
+
+    <h5>Uma tabela simples com cabeçalho e rodapé</h5>
+
+    <table border="1">
+        <thead>
+            <tr>
+            
+                <th colspan="3">Coluna</th>
+                
+            </tr>
+                         
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linha 1</td>
+                <td>Linha 2</td>
+                <td rowspan="2">Linha</td>                 
+            </tr>
+
+            <tr>
+                <td>Linha 1</td>
+                <td>Linha 2</td>
+            </tr>
+
+        </tbody>    
+        
+
+        <tfoot>
+            <tr>
+                <td>rodapé</td>
+                <td>rodapé</td>
+                <td>rodapé</td> 
+                
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <form action="#" method="get">
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" placeholder="Nome Completo"><br />
+
+        <label for="senha">Senha</label>
+        <input type="passaword" name="senha" placeholder="Senha"><br />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Informe seu Email"><br />
+        <label for="date">Data</label><br />
+        <input type="date" name="data" placeholder="Data"><br />
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <input type="checkbox" name="fumante?" value="f">
+            <label for="fumante">fumante</label><br />
+            <input type="checkbox" name="partica esporte?" value="e">
+            <label for="pratica esporte?">Pratica esporte?</label><br />
+            <input type="checkbox" name="Fala inglês?" value="e">
+            <label for="fala inglês?">Fala inglês?</label><br />
+            
+        
+            </fieldset>
+
+        <fieldset>
+            <legend>Qual o melhor navegador?</legend>
+            <input type="radio" name="Navegador" value="Google" id="Google">
+            <label for="google">Google</label><br />
+            <input type="radio" name="Navegador" value="Opera" id="Opera">  
+            <label for="opera">Opera</label>  
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>
